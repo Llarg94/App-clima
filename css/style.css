@@ -1,0 +1,95 @@
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  transition: background-image 0.5s ease-in-out; /* Suavizar el cambio de fondo */
+}
+#form {
+  width: 350px;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  margin-bottom: 20px;
+  margin-top: 30px;
+  backdrop-filter: blur(10px);
+}
+
+#tabla {
+  background-color: rgba(
+    255,
+    255,
+    255,
+    0.1
+  ); /* Fondo blanco semi-transparente */
+  border: 1px solid #ccc;
+  padding: 30px; /* Espaciado interno */
+  border-radius: 10px; /* Bordes redondeados */
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2); /* Sombra suave */
+  backdrop-filter: blur(10px);
+  width: 80%; /* Ajusta el ancho según lo que necesites */
+  margin: 0 auto; /* Centrar el contenedor en la página */
+  /* width: 1000px; */
+}
+
+#personalTable {
+  margin: 0 auto; /* Centrar la tabla */
+  border-collapse: collapse; /* Eliminar el espacio entre bordes de celdas */
+  width: 100%; /* Ancho de la tabla */
+}
+
+#personalTable th {
+  text-align: center; /* Centrar texto en el encabezado */
+  padding: 10px; /* Espaciado dentro de las celdas */
+  color: white; /* Color del texto */
+  background-color: rgb(15, 105, 231); /* Color de fondo del encabezado */
+  font-size: 18px;
+}
+
+#personalTable td {
+  border: 1px solid #ddd; /* Bordes de la tabla */
+  padding: 10px; /* Espaciado dentro de celdas */
+  text-align: center; /* Centrar texto en las celdas */
+  color: white;
+  font-size: 18px; /* Tamaño de letra */
+  background-color: rgb(137, 170, 215); /* Color de fondo de las celdas */
+  backdrop-filter: blur(10px); /* Efecto de desenfoque del fondo (opcional) */
+}
+
+/* Ajustes para el ícono del clima */
+#personalTable img {
+  width: 50px; /* Ajustar tamaño del ícono del clima */
+}
+
+#h2 {
+  text-align: center;
+}
+
+/* CSS para fondo de video */
+.fondo-video {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  z-index: -1;
+  display: none; /* Ocultos inicialmente */
+}
+
+.neon-text {
+  color: white; /* Color base del texto */
+  font-weight: bold;
+  /* Tamaño de letra, ajusta según sea necesario */
+  text-shadow: 0 0 5px rgba(41, 16, 179, 0.8),
+    /* Sombra roja suave */ 0 0 10px rgba(33, 23, 234, 0.7),
+    /* Sombra roja más fuerte */ 0 0 20px rgba(255, 102, 0, 0.5),
+    /* Naranja */ 0 0 30px rgba(0, 204, 0, 0.4),
+    /* Verde */ 0 0 40px rgba(0, 0, 255, 0.4),
+    /* Azul */ 0 0 50px rgba(102, 0, 204, 0.3),
+    /* Púrpura */ 0 0 60px rgba(255, 255, 0, 0.3); /* Amarillo */
+}
