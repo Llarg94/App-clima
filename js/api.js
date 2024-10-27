@@ -21,7 +21,7 @@ $(document).ready(function () {
 
     $.ajax({
       type: "GET",
-      url: `http://localhost:3000/api/weather?city=${city}`, // **Usa la URL de tu backend en lugar de OpenWeather**
+      url: `http://localhost:3000/api/weather?city=${city}`,
       dataType: "json",
       success: function (response) {
         mostrarDatos(response);
