@@ -26,4 +26,16 @@ Control de errores:
 Se muestra un mensaje claro en caso de que el usuario ingrese una ciudad no válida o haya un problema al conectarse a la API.
 
 Creación de un backend: index.js
-Con la finalidad de proteger mi API key personal, se ha creado un pequeño backend que se encarga...
+Para proteger la API key de OpenWeather, se creó un backend utilizando Express. Este backend se encarga de lo siguiente:
+
+Configuración: Se usa un archivo .env para almacenar la API key de forma segura.
+
+Servidor: Se configura un servidor Express que escucha en el puerto 3000.
+
+Ruta /api/weather: Esta ruta recibe el nombre de una ciudad y hace una solicitud a la API de OpenWeather usando Axios.
+
+Respuesta: Se procesan los datos recibidos y se envían de vuelta al frontend.
+
+Errores: Se manejan posibles errores, como claves inválidas o ciudades no encontradas.
+
+CORS: Se configura CORS para permitir solicitudes desde el frontend en un puerto diferente.
