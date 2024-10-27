@@ -56,7 +56,7 @@ body {
   text-align: center; /* Centrar texto en las celdas */
   color: white;
   font-size: 18px; /* Tamaño de letra */
-  background-color: rgb(137, 170, 215); /* Color de fondo de las celdas */
+  background-color: rgb(71, 122, 194); /* Color de fondo de las celdas */
   backdrop-filter: blur(10px); /* Efecto de desenfoque del fondo (opcional) */
 }
 
@@ -92,4 +92,17 @@ body {
     /* Verde */ 0 0 40px rgba(0, 0, 255, 0.4),
     /* Azul */ 0 0 50px rgba(102, 0, 204, 0.3),
     /* Púrpura */ 0 0 60px rgba(255, 255, 0, 0.3); /* Amarillo */
+}
+
+/* Ocultar columnas en pantallas pequeñas */
+@media (max-width: 768px) {
+  /* Ocultar las columnas de Humedad, Viento y Descripción general */
+  #personalTable th:nth-child(3), /* Humedad */
+  #personalTable td:nth-child(3),
+  #personalTable th:nth-child(4), /* Viento */
+  #personalTable td:nth-child(4),
+  #personalTable th:nth-child(5), /* Descripción general */
+  #personalTable td:nth-child(5) {
+    display: none; /* Ocultar */
+  }
 }
