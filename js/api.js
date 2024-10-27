@@ -10,14 +10,9 @@ $(document).ready(function () {
     if (city === "") {
       // Llamar a la función para establecer la imagen por defecto
       mostrarVideoDefault();
-      // También puedes mostrar un mensaje de error o aviso al usuario
       alert("Por favor, introduce una ciudad.");
       return; // Salir de la función si no hay ciudad
     }
-
-    // if ($("#cityInput").isEmpty) {
-    //   alert("Ups, creo que no has introducido ninguna ciudad...");
-    // }
 
     $.ajax({
       type: "GET",
