@@ -14,7 +14,6 @@ $(document).ready(function () {
       alert("Por favor, introduce una ciudad.");
       return; // Salir de la función si no hay ciudad
     }
-    const apiKey = "946548dc4e9c94363a97c8308e95d6b1";
 
     // if ($("#cityInput").isEmpty) {
     //   alert("Ups, creo que no has introducido ninguna ciudad...");
