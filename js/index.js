@@ -4,6 +4,7 @@ const express = require("express");
 const cors = require("cors");
 
 const app = express();
+const PORT = 3000;
 app.use(cors());
 
 const apiKey = process.env.API_KEY; // Carga la API key desde las variables de entorno
@@ -22,7 +23,6 @@ app.get("/api/weather", async (req, res) => {
   }
 });
 
-const PORT = 3000;
 app.listen(PORT, () => {
   console.log(`Servidor corriendo en http://localhost:${PORT}`);
 });
