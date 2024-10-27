@@ -16,10 +16,8 @@ Características:
 
 Objetivo:
 Mostrar la temperatura actual, la humedad, el viento y la descripción general (ej., “Despejado”, “Nublado”) junto con un ícono representativo del clima.
-
 Estilo visual atractivo:
 Crear una interfaz intuitiva y atractiva con CSS, añadiendo transiciones, bordes redondeados, y detalles visuales modernos, como los titulos con efecto de neon.
-
 Se han incluido fondos dinámicos que cambian según el tipo de clima (por ejemplo, un fondo/video corto claro para un día soleado, y uno nublado con lluvia para un día lluvioso).
 
 Control de errores:
@@ -37,6 +35,5 @@ Ruta /api/weather: Esta ruta recibe el nombre de una ciudad y hace una solicitud
 Respuesta: Se procesan los datos recibidos y se envían de vuelta al frontend.
 
 Errores: Se manejan posibles errores, como claves inválidas o ciudades no encontradas.
-
 CORS: Se configura CORS para permitir solicitudes desde el frontend en un puerto diferente.
 Holi
