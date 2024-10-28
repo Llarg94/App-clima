@@ -1,18 +1,10 @@
 Aplicación que permite a los usuarios consultar el clima en tiempo real
 para cualquier ciudad del mundo. Utilizando la API de un servicio meteorológico
-gratuito, en OpenWeatherMap y mostramos detalles como:
-    - La temperatura
-    - La humedad
-    - La velocidad del viento 
-    - Una descripción general del clima 
-    - Icono ilustrativo del tiempo
+gratuito, en OpenWeatherMap y mostramos detalles como: - La temperatura - La humedad - La velocidad del viento - Una descripción general del clima - Icono ilustrativo del tiempo
 
 Características:
-    Formulario de búsqueda de ciudad:
-        - Un campo de entrada para que el usuario escriba el nombre de la ciudad.
-    Botones:
-        - Un botón de búsqueda para consultar el clima de la ciudad ingresada.
-        - Un botón para limpiar la ciudad buscada y la información de la tabla.
+Formulario de búsqueda de ciudad: - Un campo de entrada para que el usuario escriba el nombre de la ciudad.
+Botones: - Un botón de búsqueda para consultar el clima de la ciudad ingresada. - Un botón para limpiar la ciudad buscada y la información de la tabla.
 
 Objetivo:
 Mostrar la temperatura actual, la humedad, el viento y la descripción general (ej., “Despejado”, “Nublado”) junto con un ícono representativo del clima.
@@ -36,4 +28,3 @@ Respuesta: Se procesan los datos recibidos y se envían de vuelta al frontend.
 
 Errores: Se manejan posibles errores, como claves inválidas o ciudades no encontradas.
 CORS: Se configura CORS para permitir solicitudes desde el frontend en un puerto diferente.
-Holi
