@@ -28,4 +28,4 @@ Respuesta: Se procesan los datos recibidos y se envían de vuelta al frontend.
 
 Errores: Se manejan posibles errores, como claves inválidas o ciudades no encontradas.
 CORS: Se configura CORS para permitir solicitudes desde el frontend en un puerto diferente.
-Hol
+
